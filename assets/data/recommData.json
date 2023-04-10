@@ -1,0 +1,31 @@
+{
+    "items":[
+        {
+            "genre":"TV",
+            "thumb":"https://file.kinolights.com/m/article_list/202303/10/52e9033c-20bb-4fa5-ae95-3e0c9ad3ec53.jpeg",
+            "recommRate":27.9,
+            "platform":"netflex",
+            "title":"더 글로리 파트 2",
+            "desc":"넷플릭스 서버 다운시킨 작품의 감상 포인트",
+            "sort":"4"
+        },
+        {
+            "genre":"TV",
+            "thumb":"https://file.kinolights.com/m/article_list/202302/23/9ae2b9f7-ab0f-479b-adbb-c38254acf8c8.jpeg",
+            "recommRate":27.9,
+            "platform":"",
+            "title":"서치 2",
+            "desc":"발전된 기술과 돌아온 속편, 반전도 한 수 위?",
+            "sort":"4"
+        },
+        {
+            "genre":"TV",
+            "thumb":"https://file.kinolights.com/m/article_list/202303/07/8693ff51-20f5-4e11-9be8-bf4f42c29fec.jpeg",
+            "recommRate":27.9,
+            "platform":"netflex",
+            "title":"나는 신이다: 신이 배신한 사람들 ",
+            "desc":"넷플릭스가 작정하고 만든 청불 다큐멘터리",
+            "sort":"4"
+        }
+    ]
+}
