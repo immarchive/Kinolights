@@ -137,6 +137,10 @@
     align-items: center;
 }
 .sc-ranking .group-ranking .rank-list .rank-item .ic-ranknum{
+<<<<<<< HEAD
+=======
+    /* background-size: 100% 100%; */
+>>>>>>> 687596e (이미지 링크 수정)
     display: inline-block;
     width: 25px;
     height: 15px;
@@ -161,6 +165,10 @@
     justify-content: end;
     align-items: center;
     flex: 1;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 687596e (이미지 링크 수정)
 }
 .sc-ranking .group-ranking .rank-list .rank-item .updown-box .up::before{
     background: url(../img/ic-chart-up.svg) 50% no-repeat;
@@ -219,10 +227,20 @@
 }
 .board-cont .card-slide{
     margin: 0 16px;
+<<<<<<< HEAD
 }
 .board-cont .card-slide .swiper-wrapper{
     position: relative;
 }
+=======
+
+}
+
+.board-cont .card-slide .swiper-wrapper{
+    position: relative;
+}
+
+>>>>>>> 687596e (이미지 링크 수정)
 .board-cont .card-slide .swiper-slide{
     width: 214px;
     height: 134px;
@@ -260,6 +278,10 @@
     word-break: break-all;
     margin-top: 4px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
 .board-cont .card-slide .swiper-slide .user-name{
     font-weight: 700;
     font-size: 14px;
@@ -292,6 +314,12 @@
     align-items: center;
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+.board-cont .card-slide .swiper-slide .writer span{
+
+}
+>>>>>>> 687596e (이미지 링크 수정)
 .board-cont .card-slide .swiper-slide .writer .ic-light{
     width: 16px;
     height: 16px;
@@ -311,6 +339,10 @@
 .board-cont .card-slide .swiper-slide .ic-light.red{
     background-image: url(../img/ic-light-red.svg);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
 .board-cont .card-slide .swiper-slide .writer .user{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -321,6 +353,10 @@
     white-space: nowrap;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
 .board-cont .group-slide .swiper-btn{
     position: absolute;
     top: 50%;
@@ -376,6 +412,11 @@
     display: inline-block;
     margin-right: 13px;
 }
+<<<<<<< HEAD
+=======
+.view-cont .view-slide .swiper-slide .img-area{
+}
+>>>>>>> 687596e (이미지 링크 수정)
 .view-cont .view-slide .swiper-slide .img-area .poster{
     position: relative;
     width: 100%;
@@ -399,6 +440,11 @@
     display: inline-block;
 }
 
+<<<<<<< HEAD
+=======
+.view-cont .view-slide .swiper-slide .text-area{
+}
+>>>>>>> 687596e (이미지 링크 수정)
 .view-cont .view-slide .swiper-slide .title{
     display: inline-block;
     width: 100%;
@@ -418,6 +464,10 @@
     margin: 3px 0 7px;
     height: 23px;
     padding-left: 8px;
+<<<<<<< HEAD
+=======
+    /* position: relative; */
+>>>>>>> 687596e (이미지 링크 수정)
     display: flex;
     align-items: flex-end;
 }
@@ -526,7 +576,10 @@
     border-width: 8px 5px;
     border-radius: 1px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 687596e (이미지 링크 수정)
 /* 키노회원 툴팁 */
 .sc-recomm{
     position: relative;

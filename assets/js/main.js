@@ -2,6 +2,7 @@ $(function(){
 
 
     // 랭킹 플랫폼 오토 전환
+<<<<<<< HEAD
     platformArr = ['넷플릭스','웨이브','티빙'];
 
 
@@ -20,6 +21,26 @@ $(function(){
     }, 4000); //4초 뒤에 실행
 
     rank(0); //최초 1회 실행은 해야함, 0번이 나와줘야 함
+=======
+    platformArr = ['넷플릭스','웨이브','티빙'];  //배열을 만든다 (배열의 길이는 3)
+
+
+    let i = 0;  //변수 생성, i=0이라고 셋팅한 것. 그럼 당연히 0번째인 넷플릭스가 실행될 것
+    setInterval(() => {  //일정시간 뒤에 실행 : setTimeout, 일정시간 뒤에 계속 실행 : setInterval
+        console.log(i);
+        if(i > platformArr.length-1){  //플랫폼변수의 길이에서 -1을 뺀 값(=2)보다 i가 크다면, 
+            i = 0;  //i는 0이 된다. = 무한개의 배열이 없어도 다시 0으로 돌아가 반복실행 된다.
+        }
+        headlineEl = `오늘의 '${platformArr[i]}' 랭킹`;  //변수 생성 (${변수명[i(순서))]} => 변수처리 할 영역)
+        $('.sc-ranking .headline').html(headlineEl);  //headline 부분을 재구성한다. 
+
+        rank(i);  //rank라는 함수 만들고, (i)를 뿌린다는 뜻
+
+        i++;  //계속 증가된다.
+    }, 4000);  //4초 뒤에 실행
+
+    rank(0);  //최초 1회 실행은 해야함, 0번이 나와줘야 함
+>>>>>>> 687596e (이미지 링크 수정)
 
 
     function rank(num){
@@ -28,6 +49,7 @@ $(function(){
         .then((json)=>{
             allData=json.items;
             result = allData.filter(function(parm){
+<<<<<<< HEAD
                 return parm.platform == num;
             })
 
@@ -35,12 +57,25 @@ $(function(){
             let rank = 1;
 
             result.forEach(element => {
+=======
+                return parm.platform == num;  //플랫폼이 num인 것
+            })
+
+            let html='';
+            let rank = 1;  //rank는 1이라는 변수 생성 (랭킹 1~3위 영역). 당연히 1부터 내용이 들어가겠지
+
+            result.forEach(element => {  //result, 값을 써야지 allData를 쓰면 안됨
+>>>>>>> 687596e (이미지 링크 수정)
 
                 //순위 변동 표시를 위한 if문
                 if(element.change > 0){
                     changeEl = `<span class="num up">${element.change}</span>`  //순위가 0보다 크면(up)
                 }else if(element.change < 0){
+<<<<<<< HEAD
                     changeEl = `<span class="num down">${(element.change)*-1}</span>`  //순위가 0보다 작으면(down)
+=======
+                    changeEl = `<span class="num down">${(element.change)*-1}</span>`  //순위가 0보다 작으면(down), *-1 = 곱하기 마이너스1 = 음수x음수=양수
+>>>>>>> 687596e (이미지 링크 수정)
                 }else{
                     changeEl = `<span class="num">-</span>`
                 }
@@ -62,7 +97,12 @@ $(function(){
 
             $('#rankList').html(html)
         })
+<<<<<<< HEAD
     };
+=======
+    }
+
+>>>>>>> 687596e (이미지 링크 수정)
 
 
 
@@ -89,6 +129,7 @@ $(function(){
     
             result.forEach(element => {
 
+<<<<<<< HEAD
                 if(element.recommRate >= 95){ //평점이 95점 이상이면
                     recommRateEl = `<i class="ic-light king"></i>
                                     <strong class="rate green">${element.recommRate}</strong>
@@ -98,12 +139,27 @@ $(function(){
                                     <strong class="rate green">${element.recommRate}</strong>
                                     <span class="percent green">%</span>` 
                 }else{ //평점이 40점 이하면
+=======
+                if(element.recommRate >= 95){  //평점이 95점 이상이면
+                    recommRateEl = `<i class="ic-light king"></i>
+                                    <strong class="rate green">${element.recommRate}</strong>
+                                    <span class="percent green">%</span>` 
+                }else if(element.recommRate < 95 && element.recommRate > 40){  //평점이 95점 이하, 40점 이상이면
+                    recommRateEl = `<i class="ic-light green"></i>
+                                    <strong class="rate green">${element.recommRate}</strong>
+                                    <span class="percent green">%</span>` 
+                }else{  //평점이 40점 이하면
+>>>>>>> 687596e (이미지 링크 수정)
                     recommRateEl = `<i class="ic-light red"></i>
                                     <strong class="rate red">${element.recommRate}</strong>
                                     <span class="percent red">%</span>`
                 };
 
+<<<<<<< HEAD
                 if(element.genre === true){ //장르가 true면 TV뱃지 표시
+=======
+                if(element.genre === true){  //장르가 true면 TV 뱃지 표시
+>>>>>>> 687596e (이미지 링크 수정)
                     html+=`<div class="swiper-slide">
                             <a href="" class="img-area">
                             <img src="${element.thumb}" alt="${element.title}" class="poster">
@@ -114,7 +170,11 @@ $(function(){
                             <div class="desc-box">
                             ${recommRateEl}
                             <button class="btn-more"> <span class="blind">더보기</span> </button> </div> </div> </div>`;
+<<<<<<< HEAD
                 }else{ //장르가 false면 TV뱃지 표시 안함
+=======
+                }else{  //장르가 false면 TV 뱃지 표시 안함
+>>>>>>> 687596e (이미지 링크 수정)
                     html+=`<div class="swiper-slide">
                             <a href="" class="img-area">
                             <img src="${element.thumb}" alt="${element.title}" class="poster">
@@ -133,9 +193,13 @@ $(function(){
 
 
 
+<<<<<<< HEAD
 
     // 4 - 볼까말까 고민된다면
 
+=======
+    // 4 - 볼까발까 고민된다면
+>>>>>>> 687596e (이미지 링크 수정)
     recomm('#recomm1',4);
 
     function recomm(frame,sorNum){
@@ -175,9 +239,13 @@ $(function(){
 
 
 
+<<<<<<< HEAD
 
     // 5 - 최신 리뷰 한줄평
 
+=======
+    // 5 - 최신 리뷰 한줄평
+>>>>>>> 687596e (이미지 링크 수정)
     review('#review1',5);
 
     function review(frame,sorNum){
@@ -194,11 +262,19 @@ $(function(){
     
             result.forEach(element => {
 
+<<<<<<< HEAD
                 if(element.rate >= 3.5){ //평점이 3.5점 이상이면
                     rateEl = `<i class="ic-light green"><span class="blind">${element.rate}</span></i>`
                 }else if(element.rate < 3.5 && element.rate > 1.5){  //평점이 3.4 ~ 1.6점이면
                     rateEl = `<i class="ic-light grey"><span class="blind">${element.rate}</span></i>`
                 }else{  //평점이 ~1.5점이면
+=======
+                if(element.rate >= 3.5){  //평점이 3.5점 이상이면
+                    rateEl = `<i class="ic-light green"><span class="blind">${element.rate}</span></i>`
+                }else if(element.rate < 3.5 && element.rate > 1.5){  //평점이 3.4 ~ 1.5점이면
+                    rateEl = `<i class="ic-light grey"><span class="blind">${element.rate}</span></i>`
+                }else{  //평점이 ~1.4점이면
+>>>>>>> 687596e (이미지 링크 수정)
                     rateEl = `<i class="ic-light red"><span class="blind">${element.rate}</span></i>`
                 };
                 
@@ -218,9 +294,13 @@ $(function(){
 
 
 
+<<<<<<< HEAD
 
     // 6 - 커뮤니티 인기글
 
+=======
+    // 6 - 커뮤니티 인기글
+>>>>>>> 687596e (이미지 링크 수정)
     board('#board1',6);
 
     function board(frame,sorNum){
@@ -261,6 +341,11 @@ $(function(){
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 687596e (이미지 링크 수정)
     // 슬라이드
     const cardSlide = new Swiper(".card-slide", {
         slidesPerView: 'auto',
@@ -291,11 +376,19 @@ $(function(){
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
     // 툴팁 닫기
     $('header .tooltip .ic-close').click(function(){
         $('header .tooltip').addClass('on')
     });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
     $('.sc-recomm .tooltip .ic-close').click(function(){
         $('.sc-recomm .tooltip').addClass('on')
     });
@@ -303,6 +396,10 @@ $(function(){
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
     // 하단 메뉴 클릭 활성화
     $('.sc-bottom-nav .nav-list').click(function(e){
         e.preventDefault();
@@ -319,7 +416,11 @@ $(function(){
 
 
 
+<<<<<<< HEAD
     // 스크롤 헤더
+=======
+    // 헤더 숨김/나타남
+>>>>>>> 687596e (이미지 링크 수정)
     let scrollTop = 0;
     $(window).scroll(function(){
         const curr = $(this).scrollTop();
@@ -341,4 +442,8 @@ $(function(){
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687596e (이미지 링크 수정)
 }) //삭제금지

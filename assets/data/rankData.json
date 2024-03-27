@@ -1,55 +1,91 @@
 {
     "items":[
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_117299_1675907194.jpg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/67e3b4be-8c82-478d-9b71-3a23fe9df3ab.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"더 글로리 파트 2",
             "change":0,
             "platform":1
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_115522_1670467059.jpg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/1b8e1284-5e69-487c-bbe1-64f64eecf64e.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"더 글로리",
             "change":1,
             "platform":1
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_117516_1670983222.jpeg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/5a96fc24-4fbd-49c2-81a3-934465b52ef7.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"일타스캔들",
             "change":-2,
             "platform":1
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_1836_1624521438.jpg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/700f8aa7-9999-4c81-9ac4-a40b051f900b.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"너의 이름은.",
             "change":0,
             "platform":0
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_88704_1669777523.JPG",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/a2a5a12d-ac18-47b1-ae99-a03bc65f7c34.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"압꾸정",
             "change":16,
             "platform":0
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_101661_1674709973.jpg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202402/06/ce9af497-7813-48fa-906e-a80be2201fa3.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"스즈메의 문단속",
             "change":-2,
             "platform":0
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_117589_1671183563.jpeg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/ab217a25-3f6a-4f43-900a-113ef22cf2d7.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"미스터트롯",
             "change":2,
             "platform":2
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_105988_1675393848.jpeg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/408b598d-58c1-4040-a89f-4ef2c9aa15af.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"모범택시2",
             "change":0,
             "platform":2
         },
         {
+<<<<<<< HEAD
             "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_120817_1677199958.jpeg",
+=======
+            "thumb":"https://file.kinolights.com/m/content_poster/202307/12/4f77fe26-7718-446f-8c5c-b0205231a71e.webp",
+>>>>>>> 687596e (이미지 링크 수정)
             "title":"혜미리예채파",
             "change":29,
             "platform":2

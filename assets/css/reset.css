@@ -42,6 +42,10 @@ img {
     max-width: 100%;
     display: block;
 	vertical-align: top;
+<<<<<<< HEAD
+=======
+    /* 크기값에 보더값 넣어줌 */
+>>>>>>> 687596e (이미지 링크 수정)
 	box-sizing: border-box;
 }
 button,select,input {
@@ -52,6 +56,10 @@ button,select,input {
     background: transparent;
     cursor: pointer;
 	outline: none;
+<<<<<<< HEAD
+=======
+    /* 화살표 삭제 */
+>>>>>>> 687596e (이미지 링크 수정)
 	-webkit-appearance: none; 
 	-moz-appearance: none;
 	appearance: none;
