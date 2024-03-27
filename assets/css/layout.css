@@ -6,11 +6,6 @@
 .wrapper{
     max-width: 700px;
     margin: 0 auto;
-<<<<<<< HEAD
-=======
-    /* width: 700px; */
-    /* margin: 0 auto; */
->>>>>>> 687596e (이미지 링크 수정)
     padding-bottom: calc(env(safe-area-inset-bottom) + 56px);
     box-sizing: border-box;
     overflow: hidden;
@@ -18,11 +13,7 @@
 
 
 
-<<<<<<< HEAD
 /* @@헤더 */
-=======
-/* @@ 헤더 */
->>>>>>> 687596e (이미지 링크 수정)
 .header{
     width: 100%;
     max-width: 700px;
@@ -154,12 +145,7 @@
 }
 
 
-<<<<<<< HEAD
 /* @@소메뉴 */
-=======
-
-
->>>>>>> 687596e (이미지 링크 수정)
 .sc-bottom-nav{
     position: fixed;
     left: 0;
@@ -207,11 +193,7 @@
 }
 
 
-<<<<<<< HEAD
 /* 아이콘 */
-=======
-
->>>>>>> 687596e (이미지 링크 수정)
 .sc-bottom-nav .nav-list .nav-ic{
     width: 32px;
     height: 32px;
@@ -219,10 +201,6 @@
     margin: 6px auto 1px;
 }
 
-<<<<<<< HEAD
-=======
-/* 메뉴 아이콘 */
->>>>>>> 687596e (이미지 링크 수정)
 .sc-bottom-nav .nav-list .nav-ic.home{
     background: url(../img/ic-home.svg);
 }
