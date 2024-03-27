@@ -2,7 +2,6 @@
     "items":[
         {
             "genre":true,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_106342_1678291589.jpeg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/5aead46a-3993-48bb-89dc-5fb09b52827e.webp",
             "recommRate":100.0,
             "title":"내가 예뻐진 그 여름",
@@ -10,7 +9,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_98748_1651631894.jpeg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/abf44ac4-1644-409c-b1a8-686c852f371d.webp",
             "recommRate":91.2,
             "title":"애프터 양",
@@ -18,7 +16,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_1979_1582175914.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/08a615bb-d808-4b5c-94d6-fd49407b9da7.webp",
             "recommRate":80.7,
             "title":"무뢰한",
@@ -26,7 +23,6 @@
         },
         {
             "genre":true,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_95863_1622018351.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/b8f38458-3476-493e-9813-16a94225ac14.webp",
             "recommRate":80.7,
             "title":"오월의 청춘",
@@ -34,7 +30,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_94903_1623635257.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/2d1b0169-063a-4176-914c-4bc701c7a0c2.webp",
             "recommRate":96.7,
             "title":"꽃다발 같은 사랑을 했다",
@@ -42,7 +37,6 @@
         },
         {
             "genre":true,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_48170_1522225004.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/26319e63-49ae-438d-8916-179cde60c5e6.webp",
             "recommRate":93.1,
             "title":"소년을 위로해줘!",
@@ -50,7 +44,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_119662_1675962753.jpeg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/fb71c3a7-f7c7-45cb-9264-da42d53cefb9.webp",
             "recommRate":89.5,
             "title":"루터: 태양의 몰락",
@@ -58,7 +51,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/drama_poster_images/280x400/drama_81945_1591853927.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/4167c3e3-6135-41d3-b625-cf058f21a1c8.webp",
             "recommRate":25.6,
             "title":"화유기",
@@ -66,7 +58,6 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_99560_1658973944.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202307/12/4843d48e-082e-4123-89f7-0b8d6d5bb448.webp",
             "recommRate":92.7,
             "title":"사랑할 땐 누구나 최악이 된다",
@@ -74,11 +65,10 @@
         },
         {
             "genre":false,
-            "thumb":"https://nujhrcqkiwag1408085.cdn.ntruss.com/static/upload/movie_poster_images/280x400/movie_8134_1511878421.jpg",
             "thumb":"https://file.kinolights.com/m/content_poster/202309/06/3df4a834-3490-4220-935c-20ffb204bc2e.webp",
             "recommRate":83.2,
             "title":"언어의 정원",
             "sort":"3"
         }
     ] 
-}
+} 
